@@ -1,0 +1,11 @@
+.White {
+    background-color: white !important;
+    color: black;
+}
+.Red {
+    background-color: red !important;
+    color: white;
+}
+.Yellow {
+    background-color: yellow !important;
+}

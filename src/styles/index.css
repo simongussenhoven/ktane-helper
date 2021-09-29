@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body {
+  font-family: 'Special Elite', cursive !important;
+}
+.react {
+  animation: rotation 30s infinite linear;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
